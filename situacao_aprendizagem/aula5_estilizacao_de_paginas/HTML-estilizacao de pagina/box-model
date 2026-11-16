@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página Web</title>
+
+    <!-- Conexão com o arquivo CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Minha Primeira Página Web</h1>
+    </header>
+
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <main>
+
+        <section id="inicio">
+            <h2>Bem-vindo!</h2>
+
+            <img src="https://picsum.photos/400/250"
+                 alt="Imagem ilustrativa">
+
+            <p>
+                Esta é uma página desenvolvida com HTML e CSS.
+                O objetivo é aprender a estruturar e estilizar
+                elementos de uma página web.
+            </p>
+        </section>
+
+        <section id="sobre">
+            <h2>O que estou aprendendo?</h2>
+
+            <ul>
+                <li>Estrutura HTML</li>
+                <li>Estilização com CSS</li>
+                <li>Criação de tabelas</li>
+                <li>Menus de navegação</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Minha Tabela</h2>
+
+            <table>
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>Cidade</th>
+                </tr>
+
+                <tr>
+                    <td>João</td>
+                    <td>20</td>
+                    <td>Mococa</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Obrigado por visitar minha página!</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido para atividade prática de HTML e CSS.</p>
+    </footer>
+
+</body>
+</html>

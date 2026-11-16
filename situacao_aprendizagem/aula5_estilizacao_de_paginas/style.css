@@ -1,27 +1,84 @@
+/* Configuração geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    color: #333;
+}
 
+/* Cabeçalho */
+header {
+    background-color: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
 
+/* Menu */
+nav {
+    background-color: #1e40af;
+    text-align: center;
+    padding: 15px;
+}
 
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
 
+nav a:hover {
+    color: yellow;
+}
 
+/* Conteúdo */
+main {
+    padding: 25px;
+    text-align: center;
+}
 
+/* Títulos */
+h2 {
+    color: #1e40af;
+}
 
+/* Imagem */
+img {
+    width: 300px;
+    border-radius: 10px;
+}
 
+/* Lista */
+ul {
+    display: inline-block;
+    text-align: left;
+    line-height: 1.8;
+}
 
+/* Tabela */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 60%;
+    background-color: white;
+}
 
+th, td {
+    border: 1px solid #999;
+    padding: 12px;
+}
 
+th {
+    background-color: #2563eb;
+    color: white;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Rodapé */
+footer {
+    background-color: #1e40af;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
